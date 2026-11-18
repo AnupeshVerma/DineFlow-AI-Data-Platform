@@ -3,3 +3,9 @@ pip install dbt-snowflake
 
 
 dbt init dineflow
+dbt run --select staging
+dbt test
+dbt build  // Run everything start to end
+dbt docs generate 
+ dbt docs serve
+
